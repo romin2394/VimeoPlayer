@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         player.delegate = self
-        player.load(url: "https://player.vimeo.com/video/372852453")
+        player.load(url: "https://player.vimeo.com/video/70591644")
         
         // Do any additional setup after loading the view.
     }

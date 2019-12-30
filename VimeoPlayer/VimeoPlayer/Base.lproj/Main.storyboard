@@ -19,18 +19,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPJ-v5-sOp" customClass="RDVimeoPlayerView" customModule="VimeoPlayer" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="74" width="414" height="221"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="0.0" y="107" width="414" height="221"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="GPJ-v5-sOp" secondAttribute="height" multiplier="414:221" id="m2D-KS-N1Z"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIMEO PLAYER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWx-am-7Et">
+                                <rect key="frame" x="141.5" y="74" width="131" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@romindhameliya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khe-xm-jQN">
+                                <rect key="frame" x="252.5" y="333" width="151.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="GPJ-v5-sOp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ES9-0c-Efd"/>
                             <constraint firstItem="GPJ-v5-sOp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Hjd-hP-5Fz"/>
-                            <constraint firstItem="GPJ-v5-sOp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Nic-Wj-Zc4"/>
+                            <constraint firstItem="oWx-am-7Et" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mjh-op-Agv"/>
+                            <constraint firstItem="khe-xm-jQN" firstAttribute="top" secondItem="GPJ-v5-sOp" secondAttribute="bottom" constant="5" id="SwS-Y8-U3H"/>
+                            <constraint firstItem="GPJ-v5-sOp" firstAttribute="top" secondItem="oWx-am-7Et" secondAttribute="bottom" constant="10" id="W3Z-nE-8lJ"/>
+                            <constraint firstItem="oWx-am-7Et" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="m7v-t3-6j8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="khe-xm-jQN" secondAttribute="trailing" constant="10" id="xvO-6n-1nD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
