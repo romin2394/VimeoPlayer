@@ -1,6 +1,6 @@
 # Vimeo Player
 ## Example
-![alt text](https://github.com/romin2394/RDOTP/blob/master/testDemo.gif)
+![alt text](https://github.com/romin2394/VimeoPlayer/blob/master/ss1.png)
 
 #### Manually
 1. Download and drop ```RDVimeoPlayerView.swift``` in your project.  
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         player.delegate = self
-        player.load(url: "https://player.vimeo.com/video/372852453")
+        player.load(url: "https://player.vimeo.com/video/70591644")
     }
 }
 
