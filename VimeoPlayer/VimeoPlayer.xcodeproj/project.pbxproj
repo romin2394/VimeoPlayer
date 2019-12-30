@@ -13,6 +13,7 @@
 		D65FF86423BA565000222B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65FF86323BA565000222B55 /* Assets.xcassets */; };
 		D65FF86723BA565000222B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65FF86523BA565000222B55 /* LaunchScreen.storyboard */; };
 		D65FF86F23BA56A000222B55 /* RDVimeoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65FF86E23BA56A000222B55 /* RDVimeoPlayerView.swift */; };
+		D65FF87123BA5AF900222B55 /* ss1.png in Resources */ = {isa = PBXBuildFile; fileRef = D65FF87023BA5AF900222B55 /* ss1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D65FF86623BA565000222B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D65FF86823BA565000222B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D65FF86E23BA56A000222B55 /* RDVimeoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDVimeoPlayerView.swift; sourceTree = "<group>"; };
+		D65FF87023BA5AF900222B55 /* ss1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ss1.png; path = ../../ss1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D65FF86323BA565000222B55 /* Assets.xcassets */,
 				D65FF86523BA565000222B55 /* LaunchScreen.storyboard */,
 				D65FF86823BA565000222B55 /* Info.plist */,
+				D65FF87023BA5AF900222B55 /* ss1.png */,
 			);
 			path = VimeoPlayer;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D65FF86723BA565000222B55 /* LaunchScreen.storyboard in Resources */,
+				D65FF87123BA5AF900222B55 /* ss1.png in Resources */,
 				D65FF86423BA565000222B55 /* Assets.xcassets in Resources */,
 				D65FF86223BA564F00222B55 /* Main.storyboard in Resources */,
 			);
