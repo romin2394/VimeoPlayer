@@ -35,3 +35,8 @@ We would love you for the contribution to **Vimeo Player**.
 ## Author
 
 rdc2394@gmail.com
+
+## Buy me a Coffee
+
+<a href="https://www.buymeacoffee.com/romin" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
